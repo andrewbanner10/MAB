@@ -45,7 +45,7 @@ namespace TestProject1.Code.PageObjects
         public By FixedTermFilter => By.Id("fixedTerm");
         public By SortByFilter => By.Id("sortBy");
 
-
+        public By NextPageButton => By.ClassName("js-next");
 
         public By UpdateResultsButton => By.CssSelector("button[type='submit'].btn.btn--secondary.btn--outline.js-submit-form-button");
 
@@ -309,26 +309,34 @@ namespace TestProject1.Code.PageObjects
         {
             ProductListLoaded();
 
-            Assert.That(
-                _networkCapture.WaitForGetResultsResponse(TimeSpan.FromSeconds(30)),
-                Is.True,
-                "Timed out waiting for the getresults API response.");
+            IWebElement nextButton = _webDriver.FindElement(NextPageButton);
 
-            var apiResponse = _networkCapture.GetParsedResponse();
-            Assert.That(apiResponse, Is.Not.Null, "Could not parse the getresults response JSON.");
+            while (nextButton.Displayed == true)
+            {
+                Assert.That(
+                    _networkCapture.WaitForGetResultsResponse(TimeSpan.FromSeconds(30)),
+                    Is.True,
+                    "Timed out waiting for the getresults API response.");
 
-            var metrics = _networkCapture.ExtractPayloadMetrics();
-            var uiDisplayedCount = _webDriver.FindElements(GetMortgageResults).Count;
+                var apiResponse = _networkCapture.GetParsedResponse();
+                Assert.That(apiResponse, Is.Not.Null, "Could not parse the getresults response JSON.");
 
-            Assert.That(uiDisplayedCount, Is.GreaterThan(0), "No mortgage products were shown in the UI.");
-            Assert.That(
-                uiDisplayedCount,
-                Is.EqualTo(metrics.PageItemCount),
-                $"UI shows {uiDisplayedCount} products but the API returned {metrics.PageItemCount} items on this page.");
-            Assert.That(
-                metrics.TotalCount,
-                Is.GreaterThanOrEqualTo(uiDisplayedCount),
-                $"API totalCount ({metrics.TotalCount}) is less than the number of products shown ({uiDisplayedCount}).");
+                var metrics = _networkCapture.ExtractPayloadMetrics();
+                var uiDisplayedCount = _webDriver.FindElements(GetMortgageResults).Count;
+
+                Assert.That(uiDisplayedCount, Is.GreaterThan(0), "No mortgage products were shown in the UI.");
+                Assert.That(
+                    uiDisplayedCount,
+                    Is.EqualTo(metrics.PageItemCount),
+                    $"UI shows {uiDisplayedCount} products but the API returned {metrics.PageItemCount} items on this page.");
+                Assert.That(
+                    metrics.TotalCount,
+                    Is.GreaterThanOrEqualTo(uiDisplayedCount),
+                    $"API totalCount ({metrics.TotalCount}) is less than the number of products shown ({uiDisplayedCount}).");
+
+                nextButton.Click(); 
+                nextButton = _webDriver.FindElement(NextPageButton);
+            }
         }
       
     }

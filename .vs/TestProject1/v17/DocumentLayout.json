@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\TestProject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\scripts\\updateresults.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\scripts\\updateresults.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\scripts\\updateresults.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\scripts\\updateresults.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\commonobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\expectedconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,33 +79,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NetworkCapture.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\NetworkCapture.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\NetworkCapture.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAowGQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T13:34:03.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Common.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Steps\\Common.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
-              "RelativeToolTip": "TestProject1\\Steps\\Common.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T11:32:30.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CommonObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
@@ -117,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Hooks.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\Hooks.cs",
@@ -129,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MortgageApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\MortgageApiResponse.cs",
@@ -137,11 +111,12 @@
               "RelativeToolTip": "TestProject1\\Helpers\\MortgageApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T18:41:59.368Z"
+              "WhenOpened": "2026-06-23T18:41:59.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "UpdateResults.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\UpdateResults.feature",
@@ -154,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Results.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Results.cs",
@@ -162,37 +137,37 @@
               "RelativeToolTip": "TestProject1\\Steps\\Results.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T13:36:14.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-22T13:36:14.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ResultsPageObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
               "RelativeToolTip": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwGkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMBAAAAAAAAAAAqwE8BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T13:32:59.989Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SearchPageObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
               "RelativeToolTip": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAiwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T17:10:28.408Z"
+              "WhenOpened": "2024-10-10T17:10:28.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Search.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Search.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Search.cs",
@@ -204,15 +179,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\Utils.cs",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
               "RelativeToolTip": "TestProject1\\Helpers\\Utils.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T13:16:35.163Z"
+              "WhenOpened": "2026-06-22T13:16:35.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Steps\\Common.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
+              "RelativeToolTip": "TestProject1\\Steps\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:32:30.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NetworkCapture.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\NetworkCapture.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\NetworkCapture.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAIwGQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T13:34:03.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
