@@ -111,23 +111,23 @@ namespace TestProject1.Scripts
  await testRunner.GivenAsync("the user loads the webpage \"https://www.mortgageadvicebureau.com/find-a-mortgage/" +
                     "\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-            global::Reqnroll.Table table1 = new global::Reqnroll.Table(new string[] {
+            global::Reqnroll.Table table4 = new global::Reqnroll.Table(new string[] {
                         "Key",
                         "Value"});
-            table1.AddRow(new string[] {
+            table4.AddRow(new string[] {
                         "propertyValue",
                         "150000"});
-            table1.AddRow(new string[] {
+            table4.AddRow(new string[] {
                         "term",
                         "30"});
-            table1.AddRow(new string[] {
+            table4.AddRow(new string[] {
                         "deposit",
                         "15000"});
-            table1.AddRow(new string[] {
+            table4.AddRow(new string[] {
                         "income",
                         "50000"});
 #line 7
- await testRunner.WhenAsync("the user enters the following mortgage data", ((string)(null)), table1, "When ");
+ await testRunner.WhenAsync("the user enters the following mortgage data", ((string)(null)), table4, "When ");
 #line hidden
 #line 13
  await testRunner.ThenAsync("the user sees mortgage options with data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");

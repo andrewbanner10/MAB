@@ -1,6 +1,6 @@
 ﻿Feature: UpdateResults
 
-The update results tests on the results page
+Feature file to confirm user can update the criteria after the inital results shown
 
 Background: Sets up valid results
 	Given the user loads the webpage "https://www.mortgageadvicebureau.com/find-a-mortgage/"

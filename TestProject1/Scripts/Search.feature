@@ -1,6 +1,6 @@
 ﻿Feature: Search
 
-A short summary of the feature
+Feature file to confirm searching of mortgage data is returned
 
 
 Scenario: Search Purchase Morgage, Check Results
@@ -13,7 +13,7 @@ Scenario: Search Purchase Morgage, Check Results
 	| income        | 50000  |
 	Then the user sees mortgage options with data
 
-Scenario: Search Purchase Morgage, Check pageination and API count
+Scenario: Confirm API and UI results totals match
 	Given the user loads the webpage "https://www.mortgageadvicebureau.com/find-a-mortgage/"
 	When the user enters the following mortgage data
 	| Key           | Value  |

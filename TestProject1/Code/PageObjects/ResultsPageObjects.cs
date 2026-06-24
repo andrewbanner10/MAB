@@ -309,10 +309,9 @@ namespace TestProject1.Code.PageObjects
         {
             ProductListLoaded();
 
-            IWebElement nextButton = _webDriver.FindElement(NextPageButton);
+                IWebElement nextButton = _webDriver.FindElement(NextPageButton);
 
-            while (nextButton.Displayed == true)
-            {
+          
                 Assert.That(
                     _networkCapture.WaitForGetResultsResponse(TimeSpan.FromSeconds(30)),
                     Is.True,
@@ -322,21 +321,61 @@ namespace TestProject1.Code.PageObjects
                 Assert.That(apiResponse, Is.Not.Null, "Could not parse the getresults response JSON.");
 
                 var metrics = _networkCapture.ExtractPayloadMetrics();
-                var uiDisplayedCount = _webDriver.FindElements(GetMortgageResults).Count;
+                var uiDisplayedCountTotal = _webDriver.FindElements(GetMortgageResults).Count;
+                
+            // this weill get the api total pages for all pages except the last page
+                int apiTotalCount = metrics.PageItemCount * (metrics.TotalPages-1);
 
-                Assert.That(uiDisplayedCount, Is.GreaterThan(0), "No mortgage products were shown in the UI.");
-                Assert.That(
-                    uiDisplayedCount,
-                    Is.EqualTo(metrics.PageItemCount),
-                    $"UI shows {uiDisplayedCount} products but the API returned {metrics.PageItemCount} items on this page.");
-                Assert.That(
-                    metrics.TotalCount,
-                    Is.GreaterThanOrEqualTo(uiDisplayedCount),
-                    $"API totalCount ({metrics.TotalCount}) is less than the number of products shown ({uiDisplayedCount}).");
+                int uiPages = 1;
+                while (nextButton.Displayed == true)
+                {
 
-                nextButton.Click(); 
+                Utils.ScrollToBottomOfPage(_webDriver);
+
+                ((IJavaScriptExecutor)_webDriver).ExecuteScript(
+                "window.scrollTo(0, document.documentElement.scrollHeight);");
+                _wait.Until(driver =>
+                {
+                    var js = (IJavaScriptExecutor)driver;
+                    var scrollTop = Convert.ToInt64(js.ExecuteScript("return window.scrollY;"));
+                    var viewportHeight = Convert.ToInt64(js.ExecuteScript("return window.innerHeight;"));
+                    var scrollHeight = Convert.ToInt64(js.ExecuteScript("return document.documentElement.scrollHeight;"));
+                    return scrollTop + viewportHeight >= scrollHeight - 2;
+                });
+
+                nextButton.Click();
+                ProductListLoaded();
                 nextButton = _webDriver.FindElement(NextPageButton);
-            }
+                uiDisplayedCountTotal = uiDisplayedCountTotal + _webDriver.FindElements(GetMortgageResults).Count;
+                uiPages++;
+
+                }
+
+
+                //get the response from the last page.
+
+                Assert.That(
+               _networkCapture.WaitForGetResultsResponse(TimeSpan.FromSeconds(30)),
+               Is.True,
+               "Timed out waiting for the getresults API response.");
+
+                 apiResponse = _networkCapture.GetParsedResponse();
+            Assert.That(apiResponse, Is.Not.Null, "Could not parse the getresults response JSON.");
+
+                 metrics = _networkCapture.ExtractPayloadMetrics();
+
+            // we need to update the last page with the count as it might differ
+            apiTotalCount = apiTotalCount + metrics.PageItemCount;     
+
+            Assert.That(
+                    uiDisplayedCountTotal,
+                    Is.EqualTo(apiTotalCount),
+                    $"UI showed {uiDisplayedCountTotal} products but the API returned {apiTotalCount}");
+                Assert.That(
+                    metrics.TotalPages,
+                    Is.EqualTo(uiPages),
+                    $"API total pages ({metrics.TotalPages}) is not the same as the UI  ({uiPages}).");
+
         }
       
     }

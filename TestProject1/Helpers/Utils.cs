@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+﻿using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using Reqnroll;
+using System;
+using System.Collections.Generic;
+using System.Data;
 
 namespace TestProject1.Code.Helpers
 {
@@ -96,6 +97,22 @@ namespace TestProject1.Code.Helpers
                 dictionary.Add(row[0], row[1]);
             }
             return dictionary;
+        }
+
+        public static void ScrollToBottomOfPage(IWebDriver driver)
+        { 
+                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
+                ((IJavaScriptExecutor)driver).ExecuteScript(
+                "window.scrollTo(0, document.documentElement.scrollHeight);");
+                wait.Until(driver =>
+                     {
+                var js = (IJavaScriptExecutor)driver;
+                var scrollTop = Convert.ToInt64(js.ExecuteScript("return window.scrollY;"));
+                var viewportHeight = Convert.ToInt64(js.ExecuteScript("return window.innerHeight;"));
+                var scrollHeight = Convert.ToInt64(js.ExecuteScript("return document.documentElement.scrollHeight;"));
+                return scrollTop + viewportHeight >= scrollHeight - 2;
+                     });
         }
 
 

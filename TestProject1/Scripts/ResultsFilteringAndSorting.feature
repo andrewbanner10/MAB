@@ -1,5 +1,6 @@
 ﻿Feature: Results Filtering And Sorting
 
+Feature file to confirm user can filter and sort the results
 
 Background: Sets up valid results
 	Given the user loads the webpage "https://www.mortgageadvicebureau.com/find-a-mortgage/"
