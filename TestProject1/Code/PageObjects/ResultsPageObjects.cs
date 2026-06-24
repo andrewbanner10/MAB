@@ -57,6 +57,7 @@ namespace TestProject1.Code.PageObjects
             _networkCapture = networkCapture;
         }
 
+        //gets list of moertage results
         public void GetListOfMortgageResults()
         {
             ProductListLoaded();
@@ -82,6 +83,7 @@ namespace TestProject1.Code.PageObjects
             Assert.That(_webDriver.FindElement(PageHeader).Text == "Here's what your next mortgage could look like");
         }
 
+        //Updates the results mortgage values
         public void UpdateResultsField(string fieldToUpdate, string value)
         {
             switch (fieldToUpdate.ToUpper())
@@ -118,6 +120,7 @@ namespace TestProject1.Code.PageObjects
             }
         }
 
+        //waits for the results spinner to finish
         public void ProductListLoaded()
         {
             PageLoading.WaitForInvisibility(_webDriver);
@@ -129,6 +132,7 @@ namespace TestProject1.Code.PageObjects
         }
 
 
+        //when called it will wait for the results then checks that it is different to original
         public void CheckUpdatedResults()
         {
             ProductListLoaded();
@@ -143,6 +147,7 @@ namespace TestProject1.Code.PageObjects
             }
         }
 
+        //updates the fixed term field value
         public void UpdateFixedTermValue(string value)
         {
             ProductListLoaded();
@@ -154,6 +159,7 @@ namespace TestProject1.Code.PageObjects
             selectFixedTerm.SelectByText(value);
         }
 
+        //when you filter by fixed term it will be in a range this checks the range of the results
         public void CheckFixedTermFilterUpdates(int minMonths)
         {
             ProductListLoaded();
@@ -170,6 +176,7 @@ namespace TestProject1.Code.PageObjects
             }
         }
 
+        //updates the sort by to supplied value
         public void UpdateSortBy(string value)
         {
             ProductListLoaded();
@@ -185,6 +192,8 @@ namespace TestProject1.Code.PageObjects
             }
         }
 
+
+        //Checks you can sort by a value on the results page
         public void CheckSortingFilterCorrect(string value)
         {
             ProductListLoaded();
@@ -305,6 +314,7 @@ namespace TestProject1.Code.PageObjects
             }
         }
 
+        //gets the API Total Pages and Total Count, then compares to UI
         public void GetCountAndCompareUIAPI()
         {
             ProductListLoaded();
@@ -323,7 +333,7 @@ namespace TestProject1.Code.PageObjects
                 var metrics = _networkCapture.ExtractPayloadMetrics();
                 var uiDisplayedCountTotal = _webDriver.FindElements(GetMortgageResults).Count;
                 
-            // this weill get the api total pages for all pages except the last page
+            // this will get the api total pages for all pages except the last page
                 int apiTotalCount = metrics.PageItemCount * (metrics.TotalPages-1);
 
                 int uiPages = 1;

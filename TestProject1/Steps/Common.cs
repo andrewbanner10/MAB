@@ -15,6 +15,7 @@ namespace TestProject1.Steps
             _commonObjects = new CommonObjects(browserDriver.Current);
         }
 
+        // Step to accept cookies
         [Given(@"the user loads the webpage ""([^""]*)""")]
         public void GivenTheUserLoadsTheWebpage(string url)
         {

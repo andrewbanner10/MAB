@@ -43,8 +43,9 @@ There is no TotalCount within the API response, so I get the initial totalPages 
 as the last page might not have 10 items. then multiply by the PageItemCount. Once we know we are on the last page, we do another call to the API to get the PageItemCount and 
 then add it to the API total count and then compare with the value in the UI.
 
-Tests are reported in a folder (it currently gets created on the desktop), 
-if the test fails it reports the error and a screenshot of the UI.
+Tests are reported in a folder (it currently gets created on the desktop or can be created itself called TestRuns), 
+if the test fails it reports the error and a screenshot of the UI (test error is also shown in the IDE when running locally, 
+ideally this would be reported out to the cloud or machine running the test).
 Some asserts also capture the error such as if Value A is not bigger than Value B and the values for both.
 This is not on all the asserts as some are already self explanitary (such as Assert.xyz.Count > 0)
 

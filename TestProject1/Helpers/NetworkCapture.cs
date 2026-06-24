@@ -98,6 +98,7 @@ namespace TestProject1.Code.Helpers
             return JsonSerializer.Deserialize<MortgageApiResponse>(LastJsonPayload, JsonOptions);
         }
 
+        //Gets the required data from the getresults
         public (int TotalPages, int TotalCount, int PageItemCount) ExtractPayloadMetrics()
         {
             var parsed = GetParsedResponse();

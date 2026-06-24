@@ -3,12 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\TestProject1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\commonobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\commonobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\expectedconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\expectedconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\scripts\\resultsfilteringandsorting.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\scripts\\resultsfilteringandsorting.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\scripts\\updateresults.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -19,48 +59,8 @@
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\scripts\\search.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\resultspageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\searchpageobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\networkcapture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\mortgageapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\results.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\pageobjects\\commonobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\code\\pageobjects\\commonobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\steps\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\steps\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\hooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\helpers\\expectedconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\helpers\\expectedconditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\code\\browserdriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,37 +87,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
-              "RelativeDocumentMoniker": "TestProject1\\readme.txt",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
-              "RelativeToolTip": "TestProject1\\readme.txt",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-24T15:11:11.623Z",
+              "DocumentIndex": 4,
+              "Title": "ExpectedConditions.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\ExpectedConditions.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\ExpectedConditions.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\ExpectedConditions.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\ExpectedConditions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T16:20:14.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Hooks.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\Hooks.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\Hooks.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAawFUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T14:49:30.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MortgageApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\MortgageApiResponse.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\MortgageApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T18:41:59.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NetworkCapture.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\NetworkCapture.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\NetworkCapture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T13:34:03.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Helpers\\Utils.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
+              "RelativeToolTip": "TestProject1\\Helpers\\Utils.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwGUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T13:16:35.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonObjects.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
+              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:29:30.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ResultsPageObjects.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
+              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwHoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T13:32:59.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchPageObjects.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
+              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T17:10:28.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Results.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Steps\\Results.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
+              "RelativeToolTip": "TestProject1\\Steps\\Results.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T13:36:14.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Common.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
+              "RelativeDocumentMoniker": "TestProject1\\Steps\\Common.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
+              "RelativeToolTip": "TestProject1\\Steps\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T11:32:30.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ResultsFilteringAndSorting.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
               "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
               "RelativeToolTip": "TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
               "WhenOpened": "2026-06-24T14:47:34.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
+              "RelativeDocumentMoniker": "TestProject1\\readme.txt",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
+              "RelativeToolTip": "TestProject1\\readme.txt",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-24T15:11:11.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateResults.feature",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
+              "RelativeDocumentMoniker": "TestProject1\\Scripts\\UpdateResults.feature",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
+              "RelativeToolTip": "TestProject1\\Scripts\\UpdateResults.feature",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-06-23T18:01:08.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Search.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\Search.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\Search.feature",
@@ -125,59 +268,12 @@
               "RelativeToolTip": "TestProject1\\Scripts\\Search.feature",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-06-24T14:36:40.641Z"
+              "WhenOpened": "2026-06-24T14:36:40.641Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdateResults.feature",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
-              "RelativeDocumentMoniker": "TestProject1\\Scripts\\UpdateResults.feature",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
-              "RelativeToolTip": "TestProject1\\Scripts\\UpdateResults.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJXSURBVDhPdVNfSFNhFP/duznd5tRy5N2o1BwoCVJZD0FgulCIXiJqIyiCKIKeequnKGgQ\u002BBSBT770oNtDgv15CKKCGkRgD/WQZCqBcnfnarmcbtO72znfvddNqx/8zs537nd\u002B3znfdybhXxhXfJCwn7x24gb589AxjfOpvPhuwzCMrQIGMaFcInuDyAJOIqNE/EyMIZqaEBELFYG4Ukd2mHidl7WyC8VyCbIkC39NL3CYcROSNIyIqvNCFiETV4nX2Olu7MS78CS6Gzpxse0s3gxM0EmbZ92m0k9YviUQV5rI3iU6drqakFtfQat3D476D\u002BNkIIzVjTXqjvsTcBPv4WlQKNo9DhEbW7278br/MV5qb9H36jR\u002Bln4hmfmAH8WsuauCQ8iX99HvrN3CATaLqypG58bglBzQCkuCX3IzSBczYlMV\u002BHSRYwuISnSjjO/5BZFU0IviAyNU34ZYzy0MKsetiICXjS0wxybka8fD3hgGWo7BX9uMZtcOBOp2wUEVDSn9GOm9LzZbWGBjXm1C6aA7\u002Bko3LXfQacvrOSTDT/BgZhRdDSF0\u002BUI4k7wMj8MDtaBxBr2p0YKoljMriKRmyT7im/62Mg9fTT09tYyP2U94n5lC0K2I9qxkxhgns1M9SEGyz4gHecnPmS0ti0HyON34TU9rIQ3J6ENEm\u002BZFRYAxrvgpMkLeKSJP5nbwfyFC4/zcXG4XYCQCNdTJEeqRp/KCGRRIEa9QMle5ib8FbCQCgzSyL8hbJE7S1juIqmnxrQr/F4gH9lIVPeRNQdZVnFsy41sA/AGfbrS3fsL98AAAAABJRU5ErkJggg==",
-              "WhenOpened": "2026-06-23T18:01:08.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Results.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Steps\\Results.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
-              "RelativeToolTip": "TestProject1\\Steps\\Results.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T13:36:14.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResultsPageObjects.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
-              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
-              "ViewState": "AgIAAEYBAAAAAAAAAAAiwGgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T13:32:59.989Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SearchPageObjects.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
-              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywCYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T17:10:28.408Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Search.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Search.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Search.cs",
@@ -186,90 +282,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T17:05:14.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\Utils.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\Utils.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAwwHUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T13:16:35.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Common.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Steps\\Common.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
-              "RelativeToolTip": "TestProject1\\Steps\\Common.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T11:32:30.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NetworkCapture.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\NetworkCapture.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\NetworkCapture.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwGQAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T13:34:03.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MortgageApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\MortgageApiResponse.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\MortgageApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T18:41:59.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Hooks.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\Hooks.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\Hooks.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAMwEUAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T14:49:30.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CommonObjects.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
-              "RelativeToolTip": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T11:29:30.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ExpectedConditions.cs",
-              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\ExpectedConditions.cs",
-              "RelativeDocumentMoniker": "TestProject1\\Helpers\\ExpectedConditions.cs",
-              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\ExpectedConditions.cs",
-              "RelativeToolTip": "TestProject1\\Helpers\\ExpectedConditions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T16:20:14.777Z"
             },
             {
               "$type": "Document",

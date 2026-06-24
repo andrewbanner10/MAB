@@ -5,9 +5,9 @@ namespace TestProject1.Code.Helpers
 {
     public static class ExpectedConditions
     {
-        /// <summary>
-        /// Native replacement for checking if an element is visible on screen.
-        /// </summary>
+
+        // Native replacement for checking if an element is visible on screen.
+
         public static Func<IWebDriver, IWebElement> ElementIsVisible(By locator)
         {
             return (driver) =>
@@ -28,9 +28,8 @@ namespace TestProject1.Code.Helpers
             };
         }
 
-        /// <summary>
-        /// Native replacement for waiting until an element is completely hidden or gone.
-        /// </summary>
+        //replacement for waiting until an element is completely hidden or gone.
+
         public static Func<IWebDriver, bool> InvisibilityOfElementLocated(By locator)
         {
             return (driver) =>
@@ -51,9 +50,8 @@ namespace TestProject1.Code.Helpers
             };
         }
 
-        /// <summary>
-        /// Native replacement for checking if an element is clickable.
-        /// </summary>
+        // replacement for checking if an element is clickable.
+
         public static Func<IWebDriver, IWebElement> ElementToBeClickable(By locator)
         {
             return (driver) =>

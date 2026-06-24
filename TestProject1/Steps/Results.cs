@@ -11,7 +11,7 @@ namespace TestProject1.Steps
     {
         private readonly ResultsPageObjects _resultsPageObjects;
 
-        // 1. Inject BrowserDriver and NetworkCapture into the step file
+        //Inject BrowserDriver and NetworkCapture into the step file
         public Results(BrowserDriver browserDriver, NetworkCapture networkCapture)
         {
             _resultsPageObjects = new ResultsPageObjects(browserDriver.Current, networkCapture);

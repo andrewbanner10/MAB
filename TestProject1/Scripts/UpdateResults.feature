@@ -12,7 +12,7 @@ Background: Sets up valid results
 	| income        | 50000  |
 	Then the user sees mortgage options with data
 
-@UpdateValues(NotTERMs)
+@UpdateValues(NotIncome)
 Scenario: The user has valid results and updates the mortgage details then new results are shown
 	Given the user is on the results page
 	When the user updates the '<FieldToUpdate>' value to '<ValueToUpdate>'

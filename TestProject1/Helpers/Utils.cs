@@ -99,6 +99,7 @@ namespace TestProject1.Code.Helpers
             return dictionary;
         }
 
+        //scrolls to the bottom of page (could also add scroll to a certain element)
         public static void ScrollToBottomOfPage(IWebDriver driver)
         { 
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));

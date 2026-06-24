@@ -24,6 +24,8 @@ namespace TestProject1.Code.PageObjects
             _webDriver = webDriver;
             _wait = new WebDriverWait(webDriver, TimeSpan.FromSeconds(DefaultWaitInSeconds));
         }
+
+        //details required to fill out the inital mortgage calculator details
         public void EnterMortgageCalculatorDetails(Table table)
         {
             var dictionary = Utils.ToDictionary(table);

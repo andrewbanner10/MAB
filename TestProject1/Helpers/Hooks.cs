@@ -45,7 +45,7 @@ namespace TestProject1.Specs.Hooks
         [BeforeScenario]
         public void SetupDirectoryStructure()
         {
-            // 1. Get Path to Desktop/TestRuns
+            // Get Path to Desktop/TestRuns
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             string mainTestRunsFolder = Path.Combine(desktopPath, "TestRuns");
 
@@ -55,7 +55,7 @@ namespace TestProject1.Specs.Hooks
                 Directory.CreateDirectory(mainTestRunsFolder);
             }
 
-            // 2. Create scenario-specific folder name: "ScenarioName_yyyyMMdd_HHmmss"
+            //  Create scenario-specific folder name: "ScenarioName_yyyyMMdd_HHmmss"
             string rawTitle = _scenarioContext.ScenarioInfo.Title;
             string safeScenarioTitle = string.Concat(rawTitle.Split(Path.GetInvalidFileNameChars()));
             string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
@@ -75,7 +75,7 @@ namespace TestProject1.Specs.Hooks
             // Scenario FAILED
             if (_scenarioContext.TestError != null)
             {
-                // 1. Write the failure log
+                // Write the failure log
                 string failureMessage = $"STATUS: FAILED{Environment.NewLine}" +
                                         $"Timestamp: {DateTime.Now}{Environment.NewLine}" +
                                         $"Error Details: {_scenarioContext.TestError.Message}{Environment.NewLine}" +
@@ -83,7 +83,7 @@ namespace TestProject1.Specs.Hooks
 
                 File.WriteAllText(logFilePath, failureMessage);
 
-                // 2. Capture the screenshot inside the scenario folder
+                //  Capture the screenshot inside the scenario folder
                 try
                 {
                     IWebDriver driver = _browserDriver.Current;

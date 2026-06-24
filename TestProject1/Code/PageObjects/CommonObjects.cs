@@ -20,15 +20,23 @@ namespace TestProject1.Code.PageObjects
             _wait = new WebDriverWait(webDriver, TimeSpan.FromSeconds(DefaultWaitInSeconds));
         }
 
+        //goes to specified url
         public void GoToUrl(string url)
         {
             _webDriver.Url = url;
         }
 
+        //checks and accepts the cookies
         public void CheckForCookies()
         {
-            // 3. Now you can call the extension method directly on the By locator
-            AcceptPrivacyLocator.WaitAndClick(_webDriver);
+            try
+            {
+                AcceptPrivacyLocator.WaitAndClick(_webDriver);
+            }
+            catch 
+            {
+                //continue - we could wait to see if the cookies appears but this is technically quicker
+            }
         }
     }
 }
