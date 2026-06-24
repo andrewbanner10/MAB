@@ -175,3 +175,4 @@ C:\Users\andre\source\repos\TestProject1\TestProject1\obj\Debug\net8.0\ref\TestP
 C:\Users\andre\source\repos\TestProject1\TestProject1\obj\Debug\net8.0\TestProject1.ProcessFeatureFileInputs.cache
 C:\Users\andre\source\repos\TestProject1\TestProject1\obj\Debug\net8.0\NUnit.AssemblyHooks.TestProject1.cs
 C:\Users\andre\source\repos\TestProject1\TestProject1\bin\Debug\net8.0\Reqnroll.NUnit.ReqnrollPlugin.dll
+C:\Users\andre\source\repos\TestProject1\TestProject1\obj\Debug\net8.0\TestProject1.sourcelink.json

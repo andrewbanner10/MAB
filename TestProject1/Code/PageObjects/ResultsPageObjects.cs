@@ -93,19 +93,19 @@ namespace TestProject1.Code.PageObjects
                     break;
 
                 case "PROPERTYVALUE":
-                    UpdateResultsPropertyValueInput.WaitAndSendKeys(_webDriver, value);
+                    UpdateResultsPropertyValueInput.WaitAndSendKeys(_webDriver, value + Keys.Tab);
                     IWebElement propertyValueElement = _webDriver.FindElement(UpdateResultsPropertyValueInput);
                     Assert.That(propertyValueElement.GetAttribute("value") == value);
                     break;
 
                 case "DEPOSIT":
-                    UpdateResultsDepositInput.WaitAndSendKeys(_webDriver, value);
+                    UpdateResultsDepositInput.WaitAndSendKeys(_webDriver, value + Keys.Tab);
                     IWebElement depositElement = _webDriver.FindElement(UpdateResultsDepositInput);
                     Assert.That(depositElement.GetAttribute("value") == value);
                     break;
 
                 case "INCOME":
-                    UpdateResultsIncomeInput.WaitAndSendKeys(_webDriver, value);
+                    UpdateResultsIncomeInput.WaitAndSendKeys(_webDriver, value + Keys.Tab);
                     IWebElement incomeElement = _webDriver.FindElement(UpdateResultsIncomeInput);
                     Assert.That(incomeElement.GetAttribute("value") == value);
                     break;

@@ -111,23 +111,23 @@ namespace TestProject1.Scripts
  await testRunner.GivenAsync("the user loads the webpage \"https://www.mortgageadvicebureau.com/find-a-mortgage/" +
                     "\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-            global::Reqnroll.Table table4 = new global::Reqnroll.Table(new string[] {
+            global::Reqnroll.Table table1 = new global::Reqnroll.Table(new string[] {
                         "Key",
                         "Value"});
-            table4.AddRow(new string[] {
+            table1.AddRow(new string[] {
                         "propertyValue",
                         "150000"});
-            table4.AddRow(new string[] {
+            table1.AddRow(new string[] {
                         "term",
                         "30"});
-            table4.AddRow(new string[] {
+            table1.AddRow(new string[] {
                         "deposit",
                         "15000"});
-            table4.AddRow(new string[] {
+            table1.AddRow(new string[] {
                         "income",
                         "50000"});
 #line 7
- await testRunner.WhenAsync("the user enters the following mortgage data", ((string)(null)), table4, "When ");
+ await testRunner.WhenAsync("the user enters the following mortgage data", ((string)(null)), table1, "When ");
 #line hidden
 #line 13
  await testRunner.ThenAsync("the user sees mortgage options with data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
@@ -136,17 +136,17 @@ namespace TestProject1.Scripts
         
         private static global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages InitializeCucumberMessages()
         {
-            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Scripts/UpdateResults.feature.ndjson", 5);
+            return new global::Reqnroll.Formatters.RuntimeSupport.FeatureLevelCucumberMessages("Scripts/UpdateResults.feature.ndjson", 8);
         }
         
         [global::NUnit.Framework.TestAttribute()]
-        [global::NUnit.Framework.DescriptionAttribute("The user has valid results and updates the mortgage term then new results are sho" +
-            "wn")]
+        [global::NUnit.Framework.DescriptionAttribute("The user has valid results and updates the mortgage details then new results are " +
+            "shown")]
         [global::NUnit.Framework.CategoryAttribute("UpdateValues(NotTERMs)")]
         [global::NUnit.Framework.TestCaseAttribute("propertyValue", "170,000", "0", null)]
         [global::NUnit.Framework.TestCaseAttribute("term", "25", "1", null)]
         [global::NUnit.Framework.TestCaseAttribute("deposit", "20,000", "2", null)]
-        public async global::System.Threading.Tasks.Task TheUserHasValidResultsAndUpdatesTheMortgageTermThenNewResultsAreShown(string fieldToUpdate, string valueToUpdate, string @__pickleIndex, string[] exampleTags)
+        public async global::System.Threading.Tasks.Task TheUserHasValidResultsAndUpdatesTheMortgageDetailsThenNewResultsAreShown(string fieldToUpdate, string valueToUpdate, string @__pickleIndex, string[] exampleTags)
         {
             string[] @__tags = new string[] {
                     "UpdateValues(NotTERMs)"};
@@ -159,8 +159,8 @@ namespace TestProject1.Scripts
             argumentsOfScenario.Add("FieldToUpdate", fieldToUpdate);
             argumentsOfScenario.Add("ValueToUpdate", valueToUpdate);
             string pickleIndex = @__pickleIndex;
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("The user has valid results and updates the mortgage term then new results are sho" +
-                    "wn", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("The user has valid results and updates the mortgage details then new results are " +
+                    "shown", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
 #line 16
@@ -186,6 +186,57 @@ await this.FeatureBackgroundAsync();
  await testRunner.AndAsync("presses update results button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
 #line 20
+ await testRunner.ThenAsync("the results are updated", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
+#line hidden
+            }
+            await this.ScenarioCleanupAsync();
+        }
+        
+        [global::NUnit.Framework.TestAttribute()]
+        [global::NUnit.Framework.DescriptionAttribute("The user has valid results and updates multiple mortgage details term then new re" +
+            "sults are shown")]
+        [global::NUnit.Framework.TestCaseAttribute("propertyValue", "170,000", "term", "35", "3", null)]
+        [global::NUnit.Framework.TestCaseAttribute("term", "25", "deposit", "25,000", "4", null)]
+        [global::NUnit.Framework.TestCaseAttribute("deposit", "20,000", "propertyValue", "190,000", "5", null)]
+        public async global::System.Threading.Tasks.Task TheUserHasValidResultsAndUpdatesMultipleMortgageDetailsTermThenNewResultsAreShown(string fieldToUpdate1, string valueToUpdate1, string fieldToUpdate2, string valueToUpdate2, string @__pickleIndex, string[] exampleTags)
+        {
+            string[] tagsOfScenario = exampleTags;
+            global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
+            argumentsOfScenario.Add("FieldToUpdate1", fieldToUpdate1);
+            argumentsOfScenario.Add("ValueToUpdate1", valueToUpdate1);
+            argumentsOfScenario.Add("FieldToUpdate2", fieldToUpdate2);
+            argumentsOfScenario.Add("ValueToUpdate2", valueToUpdate2);
+            string pickleIndex = @__pickleIndex;
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("The user has valid results and updates multiple mortgage details term then new re" +
+                    "sults are shown", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
+            string[] tagsOfRule = ((string[])(null));
+            global::Reqnroll.RuleInfo ruleInfo = null;
+#line 28
+this.ScenarioInitialize(scenarioInfo, ruleInfo);
+#line hidden
+            if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
+            {
+                await testRunner.SkipScenarioAsync();
+            }
+            else
+            {
+                await this.ScenarioStartAsync();
+#line 5
+await this.FeatureBackgroundAsync();
+#line hidden
+#line 29
+ await testRunner.GivenAsync("the user is on the results page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
+#line hidden
+#line 30
+ await testRunner.WhenAsync(string.Format("the user updates the \'{0}\' value to \'{1}\'", fieldToUpdate1, valueToUpdate1), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
+#line hidden
+#line 31
+ await testRunner.AndAsync(string.Format("the user updates the \'{0}\' value to \'{1}\'", fieldToUpdate2, valueToUpdate2), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 32
+ await testRunner.AndAsync("presses update results button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
+#line hidden
+#line 33
  await testRunner.ThenAsync("the results are updated", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
