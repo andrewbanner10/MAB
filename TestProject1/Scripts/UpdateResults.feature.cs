@@ -27,7 +27,8 @@ namespace TestProject1.Scripts
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Scripts", "UpdateResults", "The update results tests on the results page", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Scripts", "UpdateResults", "Feature file to confirm user can update the criteria after the inital results sho" +
+                "wn", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
         
 #line 1 "UpdateResults.feature"
 #line hidden

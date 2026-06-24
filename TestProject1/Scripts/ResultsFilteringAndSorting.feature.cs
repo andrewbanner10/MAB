@@ -27,7 +27,7 @@ namespace TestProject1.Scripts
         
         private static string[] featureTags = ((string[])(null));
         
-        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Scripts", "Results Filtering And Sorting", null, global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
+        private static global::Reqnroll.FeatureInfo featureInfo = new global::Reqnroll.FeatureInfo(new global::System.Globalization.CultureInfo("en-US"), "Scripts", "Results Filtering And Sorting", "Feature file to confirm user can filter and sort the results", global::Reqnroll.ProgrammingLanguage.CSharp, featureTags, InitializeCucumberMessages());
         
 #line 1 "ResultsFilteringAndSorting.feature"
 #line hidden
@@ -105,9 +105,9 @@ namespace TestProject1.Scripts
         
         public virtual async global::System.Threading.Tasks.Task FeatureBackgroundAsync()
         {
-#line 4
-#line hidden
 #line 5
+#line hidden
+#line 6
  await testRunner.GivenAsync("the user loads the webpage \"https://www.mortgageadvicebureau.com/find-a-mortgage/" +
                     "\"", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
@@ -126,10 +126,10 @@ namespace TestProject1.Scripts
             table1.AddRow(new string[] {
                         "income",
                         "50000"});
-#line 6
+#line 7
  await testRunner.WhenAsync("the user enters the following mortgage data", ((string)(null)), table1, "When ");
 #line hidden
-#line 12
+#line 13
  await testRunner.ThenAsync("the user sees mortgage options with data", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
         }
@@ -156,7 +156,7 @@ namespace TestProject1.Scripts
                     "wn", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
-#line 14
+#line 15
 this.ScenarioInitialize(scenarioInfo, ruleInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -166,16 +166,16 @@ this.ScenarioInitialize(scenarioInfo, ruleInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 4
+#line 5
 await this.FeatureBackgroundAsync();
 #line hidden
-#line 15
+#line 16
  await testRunner.GivenAsync("the user is on the results page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 16
+#line 17
  await testRunner.WhenAsync(string.Format("the user updates the fixed term value to \'{0}\'", termValue), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 17
+#line 18
  await testRunner.ThenAsync(string.Format("the fixed term results are updated and contain \'{0}\'", months), ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -199,7 +199,7 @@ await this.FeatureBackgroundAsync();
                     "s applied", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
-#line 26
+#line 27
 this.ScenarioInitialize(scenarioInfo, ruleInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -209,16 +209,16 @@ this.ScenarioInitialize(scenarioInfo, ruleInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 4
+#line 5
 await this.FeatureBackgroundAsync();
 #line hidden
-#line 27
+#line 28
  await testRunner.GivenAsync("the user is on the results page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 28
+#line 29
  await testRunner.WhenAsync(string.Format("the user updates the sort by value to \'{0}\'", sortBy), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 29
+#line 30
  await testRunner.ThenAsync(string.Format("the results are updated and sorted by \'{0}\'", sortBy), ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }
@@ -243,7 +243,7 @@ await this.FeatureBackgroundAsync();
                     "he correct filtering is applied", null, tagsOfScenario, argumentsOfScenario, featureTags, pickleIndex);
             string[] tagsOfRule = ((string[])(null));
             global::Reqnroll.RuleInfo ruleInfo = null;
-#line 39
+#line 40
 this.ScenarioInitialize(scenarioInfo, ruleInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -253,22 +253,22 @@ this.ScenarioInitialize(scenarioInfo, ruleInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 4
+#line 5
 await this.FeatureBackgroundAsync();
 #line hidden
-#line 40
+#line 41
  await testRunner.GivenAsync("the user is on the results page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 41
+#line 42
  await testRunner.WhenAsync(string.Format("the user updates the sort by value to \'{0}\'", sortBy), ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 42
+#line 43
  await testRunner.AndAsync(string.Format("the user updates the fixed term value to \'{0}\'", termValue), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
-#line 43
+#line 44
  await testRunner.ThenAsync(string.Format("the results are updated and sorted by \'{0}\'", sortBy), ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
-#line 44
+#line 45
  await testRunner.AndAsync(string.Format("the fixed term results are updated and contain \'{0}\'", months), ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
             }
