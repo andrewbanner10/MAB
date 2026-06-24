@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\TestProject1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|c:\\users\\andre\\source\\repos\\testproject1\\testproject1\\scripts\\resultsfilteringandsorting.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E9429107-DB59-430A-87FA-FA1ABD9A0322}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\scripts\\resultsfilteringandsorting.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -88,6 +92,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
+              "RelativeDocumentMoniker": "TestProject1\\readme.txt",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\readme.txt",
+              "RelativeToolTip": "TestProject1\\readme.txt",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-06-24T15:11:11.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ResultsFilteringAndSorting.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\ResultsFilteringAndSorting.feature",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Search.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\Search.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\Search.feature",
@@ -112,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UpdateResults.feature",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Scripts\\UpdateResults.feature",
               "RelativeDocumentMoniker": "TestProject1\\Scripts\\UpdateResults.feature",
@@ -124,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Results.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Results.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Results.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ResultsPageObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\ResultsPageObjects.cs",
@@ -148,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SearchPageObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\SearchPageObjects.cs",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Search.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Search.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Search.cs",
@@ -172,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Utils.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Utils.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\Utils.cs",
@@ -184,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Common.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Steps\\Common.cs",
               "RelativeDocumentMoniker": "TestProject1\\Steps\\Common.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NetworkCapture.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\NetworkCapture.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\NetworkCapture.cs",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MortgageApiResponse.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\MortgageApiResponse.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\MortgageApiResponse.cs",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Hooks.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\Hooks.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\Hooks.cs",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CommonObjects.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\PageObjects\\CommonObjects.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\PageObjects\\CommonObjects.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ExpectedConditions.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Helpers\\ExpectedConditions.cs",
               "RelativeDocumentMoniker": "TestProject1\\Helpers\\ExpectedConditions.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "BrowserDriver.cs",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\Code\\BrowserDriver.cs",
               "RelativeDocumentMoniker": "TestProject1\\Code\\BrowserDriver.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TestProject1.csproj",
               "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\TestProject1\\TestProject1\\TestProject1.csproj",
               "RelativeDocumentMoniker": "TestProject1\\TestProject1.csproj",
@@ -280,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\6.0.201\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Microsoft.NET.Test.Sdk.targets",
               "DocumentMoniker": "C:\\Users\\andre\\.nuget\\packages\\microsoft.net.test.sdk\\18.7.0\\build\\netcoreapp2.0\\Microsoft.NET.Test.Sdk.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.net.test.sdk\\18.7.0\\build\\netcoreapp2.0\\Microsoft.NET.Test.Sdk.targets",
@@ -303,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ExpectedConditions.cs",
               "DocumentMoniker": "C:\\Users\\andre\\AppData\\Local\\Temp\\MetadataAsSource\\6af549e27e2849549637f168e3a81255\\DecompilationMetadataAsSourceFileProvider\\93bf6b6db9bd475298ce81a5c3470c9c\\ExpectedConditions.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\MetadataAsSource\\6af549e27e2849549637f168e3a81255\\DecompilationMetadataAsSourceFileProvider\\93bf6b6db9bd475298ce81a5c3470c9c\\ExpectedConditions.cs",

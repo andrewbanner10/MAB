@@ -2,7 +2,11 @@ I have used reqnroll (was specflow as now depreciated) and selenium with the pag
 as it allows for slightly better reliability when the user is doing waits or dynamic pages as the objects are
 retrieved when they are required. (I am familiar with both). Reason for reqnroll is that it allows for easy to read tests, simple reuse of test data
 without having to write a new test, i can paramterise the test and pass in the value in a table that sits in the test. So 1 test with the table of 
-data will run until that table of data is finished 
+data will run until that table of data is finished .
+
+playwright was also another option to use however I have only created a proof of concept using that so decided to stick with Selenium and C# .Net
+I do know that playwright has better automatic waits which overall means it is slightly faster in comparison to selenium (which does have slighly better support as
+it is older).
 
 The page objects for each page are the element locators and then any methods that are required for testing that page.
 Then each of the feature files created will have its own script file that will call any methods on that page object file.
@@ -26,8 +30,8 @@ I am also assuming that the data returned on the searches is correct
 And also that the need for validation / negative testing on the searches / updates is not required for this exercise.
 For example you set the Term to 0, validation error is shown.
 
-Point of note - There could be an improvement to some elements to have different classes etc based on state.
-getting the Inital Rate as an example also returns hidden elements with no value so that has to be coded around. Some elements also have Ids
+Point of note - There could be an improvement to some elements to have different classes etc based on state (some do, some dont).
+such as getting the Inital Rate as an example also returns hidden elements with no value so that has to be coded around. Some elements also have Ids
 others dont.
 
 I also have never do any API / network intercepting, I followed guide online which was slightly outdated but gave me and good starting point
@@ -71,7 +75,7 @@ However we need to ensure that good practice is still undertaken and that the ch
 If there going to be making changes to get a test to pass but actually its an incorrect change (such as a bug) we
 wont want the changes being made and would need to have that test correctly fail.
 
-Finally, I would have liked to add parrallel test running into the solution this makes the test runs alot easier however it would require making the automation framework "thread" safe
+Finally, I would have liked to add parallel test running into the solution this makes the test runs alot easier however it would require making the automation framework "thread" safe
 and would require updated logging and screenshot changes too.
 
 
